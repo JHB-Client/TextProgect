@@ -27,6 +27,7 @@
 
 - (void)text {
     NSLog(@"我是测试方法%s", __func__);
+    NSLog(@"我是测试方法%s", __func__);
 }
 
 - (void)didReceiveMemoryWarning {
