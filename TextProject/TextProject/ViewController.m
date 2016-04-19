@@ -23,6 +23,7 @@
     // 开始写代码
 
     [self text];
+    [self text2];
 }
 
 - (void)text {
@@ -30,6 +31,10 @@
     NSLog(@"我是测试方法%s", __func__);
 }
 
+
+- (void)text2 {
+   NSLog(@"我是测试方法%s", __func__);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
